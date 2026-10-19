@@ -1,0 +1,157 @@
+.adventure_guides{
+    h1{
+            color: #E8722A;
+            font-size: 12px;
+            font-weight: bold;
+
+            margin-bottom: 16px;
+        }
+
+        h2{
+            color: #fff;
+            font-size: 48px;
+            font-weight: bold;
+            margin: 0px;
+        }
+
+        p{
+            color: #fff;
+            font-size: 14px;
+            font-weight: normal;
+            margin-top: 18px;
+            max-width: 480px;
+        }
+
+    .adventure_guide_hero{
+        height: 288px;
+        width: 100%;
+        background-color: azure;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("../images/daef405f2eb9e4b612231b917998bf2c2e003268.jpg");
+        background-size: cover;
+        background-position: center;
+        padding-top: 1px;
+
+        h1{
+            margin-top: 178px;
+            margin-left: 180px;
+        }
+
+        h2{
+            margin-left: 180px;
+        }
+    }
+
+    .learn_section{
+        height: 292px;
+        width: 100%;
+        // background-color: #E8722A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 104px;
+
+        .learn_text{
+            width: 640px;
+
+            h1{
+                color: #000000;
+                font-size: 30px;
+                font-weight: bold;
+            }
+
+            p{
+                color: #000000;
+            }
+        }
+
+        .learn_numbers_area{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 32px;
+
+            .learn_numbers{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                h3{
+                    font-size: 36px;
+                    font-weight: 900;
+                    color: #E8722A;
+                }
+
+                h4{
+                    font-size: 12px;
+                    font-weight: 400;
+                }
+            }
+
+        }
+
+    }
+
+
+    .random_display_area{
+        height: 1078px; 
+        width: 100%; 
+        background-color: #F4F5F0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 32px;
+
+        .random_display{
+            width: 1360px; 
+            height: 459px; 
+            // background-color: blueviolet;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .random_display_box{  
+                width: 432px;
+                height: 100%;
+                background-color: #fff;
+                border-radius: 16px;
+
+                .random_display_image{
+                    height: 243px;
+                    width: 432px;
+                    // background-color: chartreuse;
+                    background-image: url("../images/4e444b7302730d1cef4cb25733ab23411dc05680.jpg");
+                    background-size: cover;
+                    background-position: center;  
+                    border-radius: 16px;
+                }
+                h1{
+                    font-size: 18px;
+                    font-weight: 900;
+                    color: #000000;
+                    margin-top: 47px;
+                    margin-left: 24px;
+                }
+
+                p{
+                    width: 384px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #000000;
+                    margin-left: 24px;
+                }
+
+                h2{
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: #E8722A;
+                    margin-left: 24px;
+                }
+
+
+            } 
+        } 
+
+    }  
+} 

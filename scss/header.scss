@@ -1,0 +1,93 @@
+header{
+    height: 60px;
+    background-color: #111D15;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .logo_area{
+        color: #fff;
+        width: 190px;
+        height: 32px;
+
+        display: flex;
+        justify-content: space-between;
+
+        h1{
+            font-size: 14px;
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+
+        p{
+            font-size: 9px;
+        }
+
+        // background-color: #3fcb6d;
+
+        .logo{
+            height: 32px;
+            width: 32px;
+            background-color: #E8722A;
+            border-radius: 8px;
+        }
+
+        .logo_text{
+            width: 148px;
+            height: 32px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 8px;
+            // background-color: #7398f0;
+        }
+    }
+
+    nav{
+        width: 382px;
+        height: 100%;
+        // background-color: #ff3636;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+    }
+
+    .log_in_area{
+        width: 145px;
+        height: 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .log_in{
+            color: #E8722A;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .search{
+            width: 32px;
+            height: 32px;
+            background-color: #E8722A;
+            border-radius: 8px;
+            
+            i{
+                color: #fff;
+                font-size: 14px;
+            }
+        }
+
+        .basket{
+            width: 32px;
+            height: 32px;
+            background-color: #7398f0;
+            border-radius: 8px;
+        }
+    }
+
+}
